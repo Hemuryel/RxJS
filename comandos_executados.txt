@@ -1,0 +1,33 @@
+// inicializar package.json
+npm init -y
+
+// instalar RxJS
+npm i rxjs
+
+// instalar json server
+npm i json-server
+
+// instalar ambiente HTTP
+npm i axios
+
+//alterar dentro de package.json para iniciar API ao iniciar npm
+// alterar "test" para "start"
+"start": "json-server --watch db.json --port 3001"
+
+// iniciar servidor json-server e rodar API
+npm start
+
+// para acessar API
+localhost:port/nome_api
+localhost:3001/films
+
+// abrir VS Code
+code .
+
+// executar arquivo JS
+node arquivo.js
+node "caminho.../arquivo.js"
+
+Aulas
+https://www.youtube.com/watch?v=DBHpS2CqGZs
+https://www.youtube.com/watch?v=KXliXSjxC6k

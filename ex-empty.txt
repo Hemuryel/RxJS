@@ -1,0 +1,10 @@
+const { empty } = require("rxjs")
+
+
+const subscribe = empty().subscribe({
+
+next: () => {console.log('Next'),console.log('Next'),console.log('Next'),console.log('Next')},
+
+complete: () => console.log('Complete!')
+
+});
