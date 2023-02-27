@@ -10,7 +10,7 @@ const subscription2 = observable1.subscribe(num => {
     console.log(num * 100)
 })
 
-setTimeout(() => {
-    subscription1.unsubscribe();
-    subscription2.unsubscribe();
-}, 6000)
+// setTimeout(() => {
+//     subscription1.unsubscribe();
+//     subscription2.unsubscribe();
+// }, 6000)
